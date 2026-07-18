@@ -1,3 +1,3 @@
 def test_multiplication():
     five = Dollar(5)
-    five * 2 assert 10
+    assert five * 2 = 10
