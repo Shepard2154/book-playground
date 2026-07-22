@@ -1,4 +1,4 @@
-from app import Dollar
+from app import Dollar, Franc
 
 
 def test_multiplication():
@@ -14,5 +14,5 @@ def test_equality():
 
 def test_franc_multiplication():
     five = Franc(5)
-    assert franc * 2 == Franc(10)
+    assert five * 2 == Franc(10)
     assert five * 3 == Franc(15)
