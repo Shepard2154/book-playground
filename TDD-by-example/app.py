@@ -4,3 +4,6 @@ class Dollar:
 
     def __mul__(self, multiplier):
         return self._amount * multiplier
+
+    def __eq__(self, other):
+        return self._amount == other
